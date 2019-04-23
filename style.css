@@ -1,0 +1,59 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+
+      font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  font-size:  100px;
+  color: brown;
+  position: relative;
+  top: -300px;
+}
+
+hr {
+  position: relative;
+  top: -300px;
+  max-width: 200px;
+  border-width: 3px;
+  border-color: brown;
+}
+
+
+header.startup {
+  background-position: center;
+  background-image: url("LS.jpg");
+  background-size: 100% 105%;
+  height: 100%;
+}
+
+.btn {
+  position: relative;
+  left: -30px;
+  bottom: -100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  border-color: brown;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary{
+
+  color: brown;
+  background-color: yellow;
+}
+
+.btn-primary:hover{
+  background-color: red;
+  cursor: pointer;
+}
